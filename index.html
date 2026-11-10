@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111014">
+  <meta name="description" content="Maggie Graphics — graphic design, birthday posters, political posters, business cards and business logos in Kabale, Uganda.">
+  <title>Maggie Graphics | Transforming Ideas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="Maggie Graphics home">
+      <img src="assets/maggie-graphics-logo.png" alt="Maggie Graphics logo">
+      <span><b>MAGGIE</b><i>Graphics</i></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#work">Our work</a><a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Contact us <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orb orb-a"></div><div class="hero-orb orb-b"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> CREATIVE GRAPHIC DESIGN · KABALE, UGANDA</p>
+        <h1>We make your<br>ideas <em>stand out.</em></h1>
+        <p class="hero-lead">From birthday posters to business branding, Maggie Graphics turns your ideas into designs people notice and remember.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-pink" href="#work">Explore our work <span>↘</span></a>
+          <a class="under-link" href="#contact">Let's create together <span>↗</span></a>
+        </div>
+        <div class="hero-signoff"><span></span> TRANSFORMING IDEAS</div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Examples of Maggie Graphics design work">
+        <div class="visual-circle"></div>
+        <figure class="visual-image visual-one"><img src="assets/birthday-poster.jpg" alt="Birthday poster created by Maggie Graphics"></figure>
+        <figure class="visual-image visual-two"><img src="assets/afrivino-wines-promo.jpg" alt="Afrivino Wines promotional design created by Maggie Graphics"></figure>
+        <div class="visual-label"><small>YOUR IDEA.</small><strong>OUR CREATIVITY.</strong><span>✳</span></div>
+      </div>
+      <a class="scroll-hint" href="#services">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="section-label reveal">01 / ABOUT MAGGIE</div>
+      <div class="intro-main reveal">
+        <h2>Creative designs.<br><em>Meaningful impressions.</em></h2>
+        <p>Maggie Graphics is a graphic design studio focused on bringing ideas to life. We create eye-catching designs for individuals, businesses, campaigns and special occasions — with care, creativity and attention to detail.</p>
+        <p class="tagline">Transforming Ideas.</p>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-head reveal">
+        <div><div class="section-label">02 / OUR SERVICES</div><h2>What can we<br><em>design for you?</em></h2></div>
+        <p>Choose the service you need. Every design is made to communicate your message and give it a memorable look.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service reveal"><span class="service-number">01</span><div class="service-symbol">✦</div><h3>Birthday posters</h3><p>Personalised birthday posters, photo designs and celebration graphics.</p><a href="#work" data-jump-filter="birthday">View examples ↗</a></article>
+        <article class="service reveal"><span class="service-number">02</span><div class="service-symbol">▣</div><h3>Political posters</h3><p>Campaign posters and political promotional designs that communicate clearly.</p><a href="#work" data-jump-filter="political">View examples ↗</a></article>
+        <article class="service reveal"><span class="service-number">03</span><div class="service-symbol">▤</div><h3>Business cards</h3><p>Professional business cards that help you introduce yourself and your brand.</p><a href="#work" data-jump-filter="cards">View examples ↗</a></article>
+        <article class="service reveal"><span class="service-number">04</span><div class="service-symbol">✳</div><h3>Business logos</h3><p>Distinctive logos and visual identities for businesses and organisations.</p><a href="#work" data-jump-filter="logos">View examples ↗</a></article>
+        <article class="service service-wide reveal"><span class="service-number">05</span><div class="service-symbol">▧</div><h3>Promotional & other designs</h3><p>Brochures, product promotions, graduation designs and other creative artwork.</p><a href="#work" data-jump-filter="other">View examples ↗</a></article>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="work">
+      <div class="section-head reveal">
+        <div><div class="section-label">03 / OUR PORTFOLIO</div><h2>Work that tells<br><em>your story.</em></h2></div>
+        <p>These are examples of work supplied by Maggie Graphics. Select a category to explore the designs.</p>
+      </div>
+      <div class="filters reveal" role="group" aria-label="Filter portfolio by category">
+        <button class="filter active" data-filter="all">All work <span>07</span></button>
+        <button class="filter" data-filter="birthday">Birthday posters</button>
+        <button class="filter" data-filter="political">Political posters</button>
+        <button class="filter" data-filter="cards">Business cards</button>
+        <button class="filter" data-filter="logos">Business logos</button>
+        <button class="filter" data-filter="other">Other designs</button>
+      </div>
+      <div class="portfolio-grid">
+        <button class="work-card reveal" data-category="birthday" data-title="Birthday poster" data-type="BIRTHDAY POSTERS" data-description="A personalised birthday design using portrait photography and bold celebratory typography."><img src="assets/birthday-poster.jpg" alt="Birthday poster design by Maggie Graphics"><span class="work-caption"><small>BIRTHDAY POSTERS</small><strong>Birthday design</strong><b>↗</b></span></button>
+        <button class="work-card reveal" data-category="political" data-title="COSAKU campaign poster" data-type="POLITICAL POSTERS" data-description="A political campaign poster featuring a strong blue layout, candidate portrait and campaign message."><img src="assets/cosaku-political-poster.jpg" alt="COSAKU political campaign poster by Maggie Graphics"><span class="work-caption"><small>POLITICAL POSTERS</small><strong>Campaign poster</strong><b>↗</b></span></button>
+        <button class="work-card reveal" data-category="cards" data-title="Maggie Graphics business card" data-type="BUSINESS CARDS" data-description="A business card design for Maggie Graphics with a clear contact information layout."><img src="assets/maggie-graphics-business-card.jpg" alt="Maggie Graphics business card design"><span class="work-caption"><small>BUSINESS CARDS</small><strong>Business card</strong><b>↗</b></span></button>
+        <button class="work-card reveal" data-category="logos" data-title="African Homestead logo" data-type="BUSINESS LOGOS" data-description="A circular logo concept for African Homestead and Touring Co., featuring local tourism imagery."><img src="assets/african-homestead-logo.jpg" alt="African Homestead and Touring company logo"><span class="work-caption"><small>BUSINESS LOGOS</small><strong>African Homestead</strong><b>↗</b></span></button>
+        <button class="work-card reveal" data-category="other" data-title="Afrivino Wines promotion" data-type="PROMOTIONAL DESIGNS" data-description="A product promotional graphic for Afrivino Wines, combining product imagery and bold lettering."><img src="assets/afrivino-wines-promo.jpg" alt="Afrivino Wines promotional design"><span class="work-caption"><small>PROMOTIONAL DESIGNS</small><strong>Afrivino Wines</strong><b>↗</b></span></button>
+        <button class="work-card reveal" data-category="other" data-title="African Homestead brochure" data-type="BROCHURES" data-description="A tourism brochure highlighting activities and contact details for African Homestead and Touring Co."><img src="assets/african-homestead-brochure.jpg" alt="African Homestead tourism brochure"><span class="work-caption"><small>BROCHURES</small><strong>Tourism brochure</strong><b>↗</b></span></button>
+        <button class="work-card reveal" data-category="other" data-title="Graduation portrait design" data-type="GRADUATION DESIGNS" data-description="A graduation portrait design with a warm background and a multi-panel photo layout."><img src="assets/graduation-design.jpg" alt="Graduation portrait design by Maggie Graphics"><span class="work-caption"><small>GRADUATION DESIGNS</small><strong>Graduation design</strong><b>↗</b></span></button>
+      </div>
+      <div class="portfolio-bottom reveal"><span>Have something in mind?</span><a href="#contact">Let's design it together ↗</a></div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-content reveal"><div class="section-label">THE MAGGIE GRAPHICS TOUCH</div><h2>Your ideas deserve<br>a <em>beautiful design.</em></h2><p>Thoughtful creativity. Designs that speak.</p></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-head reveal">
+        <div><div class="section-label">04 / CONTACT US</div><h2>Let's bring your<br><em>idea to life.</em></h2></div>
+        <p>Have a design in mind? Get in touch with Maggie Graphics and let's discuss your project.</p>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-info">
+          <a href="tel:+256763975808"><small>CALL / WHATSAPP</small><strong>0763 975 808</strong></a>
+          <a href="tel:+256787600584"><small>ALTERNATIVE NUMBER</small><strong>0787 600 584</strong></a>
+          <a href="mailto:magielenah5@gmail.com"><small>EMAIL</small><strong>magielenah5@gmail.com</strong></a>
+          <div><small>LOCATION</small><strong>Rwamukundi, opposite Home Care Clinic, Kabale, Uganda</strong></div>
+        </div>
+        <div class="contact-panel"><div class="contact-star">✳</div><small>LET'S MAKE IT HAPPEN</small><h3>Tell us what<br>you're imagining.</h3><a class="btn btn-pink" href="https://wa.me/256763975808?text=Hello%20Maggie%20Graphics%2C%20I%20would%20like%20to%20enquire%20about%20a%20design." target="_blank" rel="noopener">Message on WhatsApp <span>↗</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="footer-brand" href="#home"><img src="assets/maggie-graphics-logo.png" alt=""><span>MAGGIE <i>Graphics</i></span></a><span>Transforming Ideas.</span><span>© <span id="year"></span> Maggie Graphics</span><a href="#home">BACK TO TOP ↑</a></footer>
+
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Portfolio preview">
+    <button class="lightbox-close" aria-label="Close preview">×</button><button class="lightbox-prev" aria-label="Previous work">←</button>
+    <div class="lightbox-inner"><img src="" alt=""><div><small></small><h3></h3><p></p></div></div>
+    <button class="lightbox-next" aria-label="Next work">→</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
